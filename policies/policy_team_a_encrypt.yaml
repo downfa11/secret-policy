@@ -1,0 +1,8 @@
+id: policy_team_a_encrypt
+version: 2025-04-01
+statement:
+  - effect: allow
+    actions:
+      - secret:encrypt
+    resources:
+      - secret/team-a/*
