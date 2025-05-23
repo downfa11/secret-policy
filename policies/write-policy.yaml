@@ -1,0 +1,8 @@
+id: policy_team_a_write
+version: 2025-04-01
+statement:
+  - effect: allow
+    actions:
+      - secret:write
+    resources:
+      - secret/team-a/*

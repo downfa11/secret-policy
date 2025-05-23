@@ -1,0 +1,9 @@
+id: policy_team_a_read
+version: 2025-04-01
+statement:
+  - effect: allow
+    actions:
+      - secret:read
+    # - secret:decrypt
+    resources:
+      - secret/team-a/*
